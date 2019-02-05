@@ -28,11 +28,10 @@ def showpound(amt):
     pound=Pound(int(amt))
     return "{}".format(pound)
 
-#@app.route('/bank/<name>/<currency>/<value>')
-#def finalbank(bankname, currency, value):
-    #bank=Bank(bankname,Currency)
-
-    #return '<h1>Welcome to the {} bank! {} <h1>".format(bank.name, bank.__str__())
+@app.route('/bank/<bankname>/<currency>/<value>')
+def finalbank(bankname, currency, value):
+    final=Bank(bankname,Currency)
+    return '<h1>Welcome to the {} bank! {} <h1>'.format(final.name, final.__str__)
 
 
 
