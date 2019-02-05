@@ -99,23 +99,23 @@ dollar = Dollar(1)
 pound = Pound(1)
 yuan = Yuan(1)
 
-print(Dollar(2))
+#print(Dollar(2))
 
 
-print(yuan.conversion(Pound))
+#print(yuan.conversion(Pound))
 #0.5333333333333333 Pound
 #
-print(pound.conversion(Pound))
+#print(pound.conversion(Pound))
 # 1.0 Pound
 #
-print(pound.conversion(Dollar))
+#print(pound.conversion(Dollar))
 # 0.75 Dollar
 #
-print(dollar)
+#print(dollar)
 # 1 Dollar
 #
-two_dollars = Dollar(2)
-print(two_dollars)
+#two_dollars = Dollar(2)
+#print(two_dollars)
 # 2 Dollars
 
 
@@ -180,7 +180,7 @@ barclays = Bank("Barclays", Pound, 1)
 bank_of_china = Bank("Bank of China", Yuan, 1)
 #
 #
-print(jpMorgan.current_account.value)
+#print(jpMorgan.current_account.value)
 # 1
 #
 ## # should show: 'successful deposit'
@@ -190,4 +190,4 @@ print(jpMorgan.current_account.value)
 #
 #print(jpMorgan.deposit(pound))
 # # should show: 'ERROR: cannot deposit that currency.'
-print(jpMorgan)
+#print(jpMorgan)
