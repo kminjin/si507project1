@@ -178,7 +178,8 @@ class Bank:
 jpMorgan = Bank("J.P.Morgan", Dollar, 1)
 barclays = Bank("Barclays", Pound, 1)
 bank_of_china = Bank("Bank of China", Yuan, 1)
-#
+
+print(bank_of_china)
 #
 #print(jpMorgan.current_account.value)
 # 1
